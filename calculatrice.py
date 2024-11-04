@@ -3,6 +3,13 @@ def addition(x, y):
 
 def soustraction(x, y):
     return x - y
+    
+def Multiplication(x,y):
+    return x * y
+def Division(x, y):
+    if y==0:
+    return "Error :division par zero"
+     return x / y
 
 def calculatrice():
     print("Sélectionnez l'opération:")
