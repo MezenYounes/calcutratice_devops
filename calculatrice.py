@@ -1,3 +1,9 @@
+def addition(x, y):
+    return x + y
+
+def soustraction(x, y):
+    return x - y
+
 def calculatrice():
     print("Sélectionnez l'opération:")
     print("1. Addition")
