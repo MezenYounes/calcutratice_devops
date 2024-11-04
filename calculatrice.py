@@ -4,6 +4,14 @@ def addition(x, y):
 def soustraction(x, y):
     return x - y
 
+def multiplication(x, y):
+    return x * y
+
+def division(x, y):
+    if y == 0:
+        return "Erreur : division par zéro"
+    return x / y
+
 def calculatrice():
     print("Sélectionnez l'opération:")
     print("1. Addition")
@@ -31,6 +39,7 @@ def calculatrice():
             print(f"{a} / {b} = {division(a, b)}")
     else:
         print("Choix invalide")
-        
+
 if __name__ == "__main__":
     calculatrice()
+
