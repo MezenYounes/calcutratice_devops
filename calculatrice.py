@@ -42,4 +42,6 @@ def calculatrice():
 
 if __name__ == "__main__":
     calculatrice()
+    
+    "ajouter fonctone"
 
